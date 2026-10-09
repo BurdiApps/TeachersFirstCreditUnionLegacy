@@ -1,0 +1,24 @@
+@CreditUnion.Api_HostAddress = http://localhost:5153
+
+### Check demo session
+GET {{CreditUnion.Api_HostAddress}}/api/session
+Accept: application/json
+
+###
+
+### Start the fake member session
+POST {{CreditUnion.Api_HostAddress}}/api/session/demo
+Content-Type: application/json
+
+{
+	"userId": "demo.member",
+	"password": "demo123"
+}
+
+### Get the signed-in member's account summary
+GET {{CreditUnion.Api_HostAddress}}/api/accounts/mine
+Accept: application/json
+
+### Get the signed-in member's activity
+GET {{CreditUnion.Api_HostAddress}}/api/accounts/mine/transactions
+Accept: application/json

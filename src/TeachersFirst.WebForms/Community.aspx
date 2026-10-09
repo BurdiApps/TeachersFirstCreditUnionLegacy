@@ -1,0 +1,7 @@
+<%@ Page Title="Our Community" Language="C#" MasterPageFile="~/Site.Master" %>
+<asp:Content ID="Title" ContentPlaceHolderID="HeadContent" runat="server"><title>Our Community | Teachers First Credit Union</title></asp:Content>
+<asp:Content ID="Body" ContentPlaceHolderID="MainContent" runat="server">
+  <section class="page-intro"><p class="kicker">IN OUR SCHOOLS. IN OUR COMMUNITY.</p><h1>Backing the people who help students thrive.</h1><p>A fictional community page for a credit union built around teachers and their families.</p></section>
+  <div class="content-cards"><article id="classroom-grants"><h2>Classroom mini-grants</h2><p>A sample program concept for educator-led projects, reading corners, and hands-on learning materials.</p><a href="About.aspx#eligibility">See who the mock program is for &raquo;</a></article><article id="school-supplies"><h2>School supply drive</h2><p>A seasonal community effort collecting classroom basics for local students and teachers.</p><a href="Resources.aspx#budgeting">Explore family budgeting resources &raquo;</a></article><article id="financial-wellness"><h2>Family financial wellness</h2><p>Plain-language workshops about budgeting, savings goals, and recognizing financial scams.</p><a href="Resources.aspx">Visit the resource center &raquo;</a></article></div>
+  <section class="callout"><strong>Have a question about this fictional site?</strong><a class="button" href="Contact.aspx">Contact Member Services &raquo;</a></section>
+</asp:Content>

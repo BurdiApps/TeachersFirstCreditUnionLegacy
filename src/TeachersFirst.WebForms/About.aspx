@@ -1,0 +1,7 @@
+<%@ Page Title="About Teachers First" Language="C#" MasterPageFile="~/Site.Master" %>
+<asp:Content ID="Title" ContentPlaceHolderID="HeadContent" runat="server"><title>About Teachers First | Teachers First Credit Union</title></asp:Content>
+<asp:Content ID="Body" ContentPlaceHolderID="MainContent" runat="server">
+  <section class="page-intro"><p class="kicker">FOR THOSE WHO TEACH</p><h1>A credit union with educators in mind.</h1><p>Teachers First is a fictional Bakersfield-area credit union concept created to explore the software behind long-lived financial websites.</p></section>
+  <section class="content-band" id="eligibility"><h2>Who this mockup is for</h2><div class="content-columns"><article><h3>Educators and school staff</h3><p>Teachers, support staff, administrators, and retired school employees are at the heart of the story.</p></article><article><h3>Teachers' families</h3><p>Spouses and immediate family members are included in this fictional membership concept.</p></article></div><p>No real membership application is submitted by using this demo.</p></section>
+  <section class="content-band"><h2>Our purpose</h2><p>We imagine a member-owned institution that understands school-year schedules, family budgets, and the daily work of helping students grow.</p><a href="Community.aspx">See the community programs &raquo;</a></section><section class="callout"><strong>Want to explore the demo?</strong><a class="button" href="Accounts.aspx">Browse sample accounts</a></section>
+</asp:Content>

@@ -1,0 +1,7 @@
+<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" %>
+<asp:Content ID="Title" ContentPlaceHolderID="HeadContent" runat="server"><title>Contact | Teachers First Credit Union</title></asp:Content>
+<asp:Content ID="Body" ContentPlaceHolderID="MainContent" runat="server">
+  <section class="page-intro"><p class="kicker">WE'RE HERE TO HELP</p><h1>Contact Teachers First</h1><p>This is a fictional credit union site created for software practice. The sample contact methods below are reserved placeholders.</p></section>
+  <section class="contact-card"><h2>Sample Member Services</h2><p><strong>Phone:</strong> <a href="tel:+16615550148">(661) 555-0148</a></p><p><strong>Email:</strong> <a href="mailto:members@teachersfirst.example">members@teachersfirst.example</a></p><p><strong>Sample hours:</strong> Monday-Friday, 8:00 a.m.-5:00 p.m.</p><p>These are not real contact details. Do not send private or financial information.</p></section>
+  <section class="content-band" id="demo-boundary"><h2>About the demo</h2><p>The member login and account activity use fictional credentials and sample records stored locally with the project. No real account access, applications, payments, or transfers are available.</p><a href="Default.aspx#online-banking">Return to the demo login &raquo;</a></section>
+</asp:Content>

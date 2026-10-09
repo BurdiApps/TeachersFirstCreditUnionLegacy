@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<account memberName="Alex Morgan" openingBalance="5420.00">
+  <transaction description="Payroll deposit" category="Income" amount="2450.00" postedAt="2026-10-04T08:00:00Z" />
+  <transaction description="Valley Market" category="Groceries" amount="-86.42" postedAt="2026-10-03T08:00:00Z" />
+  <transaction description="Fuel Stop #18" category="Transportation" amount="-52.18" postedAt="2026-10-02T08:00:00Z" />
+  <transaction description="Kern Electric Utility" category="Utilities" amount="-128.67" postedAt="2026-10-01T08:00:00Z" />
+  <transaction description="Monthly savings transfer" category="Transfer" amount="-300.00" postedAt="2026-09-30T08:00:00Z" />
+  <transaction description="Coffee House" category="Dining" amount="-8.75" postedAt="2026-09-29T08:00:00Z" />
+  <transaction description="Payroll deposit" category="Income" amount="2450.00" postedAt="2026-09-20T08:00:00Z" />
+  <transaction description="Neighborhood Pharmacy" category="Health" amount="-34.50" postedAt="2026-09-18T08:00:00Z" />
+</account>

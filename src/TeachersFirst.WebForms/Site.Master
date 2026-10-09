@@ -1,0 +1,12 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="TeachersFirst.WebForms.SiteMaster" %>
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server"><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="theme-color" content="#175783" /><asp:ContentPlaceHolder ID="HeadContent" runat="server" /><link rel="stylesheet" href="<%: ResolveUrl("~/Content/site.css") %>" /></head>
+<body><form id="MainForm" runat="server"><div class="site-shell" id="top">
+  <div class="utility"><span>A friendly face. A helpful answer.</span><span><asp:HyperLink ID="MemberAccessLink" runat="server" NavigateUrl="~/Default.aspx#online-banking" Text="Online Banking" /> <asp:HyperLink ID="JoinLink" runat="server" NavigateUrl="~/About.aspx#eligibility" Text="Become a Member" /></span></div>
+  <header><asp:HyperLink ID="BrandLink" runat="server" CssClass="brand" NavigateUrl="~/Default.aspx"><span class="apple" aria-hidden="true">&#127822;</span><span>Teachers First<small>CREDIT UNION</small></span></asp:HyperLink><p>For those who teach. For those who learn.</p></header>
+  <nav id="MainNavigation" runat="server" aria-label="Main navigation"><asp:HyperLink ID="HomeLink" runat="server" NavigateUrl="~/Default.aspx" Text="Home" /><asp:HyperLink ID="AboutLink" runat="server" NavigateUrl="~/About.aspx" Text="About Us" /><asp:HyperLink ID="AccountsLink" runat="server" NavigateUrl="~/Accounts.aspx" Text="Accounts" /><asp:HyperLink ID="LoansLink" runat="server" NavigateUrl="~/Loans.aspx" Text="Loans &amp; Credit" /><asp:HyperLink ID="ResourcesLink" runat="server" NavigateUrl="~/Resources.aspx" Text="Member Resources" /><asp:HyperLink ID="CommunityLink" runat="server" NavigateUrl="~/Community.aspx" Text="Our Community" /></nav>
+  <div class="notice">Teachers, school staff, and their families: you belong here. <strong>Fictional learning project, not a real credit union.</strong></div>
+  <main class="page-content"><asp:ContentPlaceHolder ID="MainContent" runat="server" /></main>
+  <footer><strong>Teachers First Credit Union</strong><span>Mock site. All accounts, services, and rates are fictional.</span><span class="footer-links"><asp:HyperLink runat="server" NavigateUrl="~/Contact.aspx" Text="Contact" /><asp:HyperLink runat="server" NavigateUrl="~/Resources.aspx#privacy" Text="Privacy" /><asp:HyperLink runat="server" NavigateUrl="~/Resources.aspx#security" Text="Security" /><a href="#top">Back to Top &raquo;</a></span></footer>
+</div></form></body></html>
